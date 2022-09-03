@@ -1,0 +1,33 @@
+.rides-container {
+    width: 100%;
+    min-height: 90%;
+    height: 95%;
+    overflow: auto;
+    /* background-color: green;; */
+}
+
+.menu-container {
+    width: 100%;
+    height: 100%;
+    /* background-color: #EFFFFD; */
+    background: rgba(239, 255, 253, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.4px);
+-webkit-backdrop-filter: blur(1.4px);
+border: 1px solid rgba(239, 255, 253, 0.54);
+    /* border-radius: 0.7rem; */
+    overflow: hidden;
+    padding: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    outline: none;
+    border: 2px solid #42C2FF;
+    border-radius: 1000px;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    padding: 0.5rem 1rem;
+    color: #42C2FF;
+}

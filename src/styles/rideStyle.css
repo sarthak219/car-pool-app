@@ -1,0 +1,24 @@
+.ride {
+    /* background-color: #42C2FF; */
+    background: rgb(133,244,255);
+    background: linear-gradient(160deg, rgba(133,244,255,1) 0%, rgba(66,194,255,1) 100%);
+    border-radius: 0.5rem;
+    margin: 10px 0;
+    color: #EFFFFD;
+}
+
+.ride h1 {
+    font-size: 2rem;
+}
+
+.ride > * {
+    padding: 10px;
+}
+
+.ride .left {
+    flex-grow: 1;
+}
+
+.ride.selected {
+    box-shadow: inset 0 0 0 2px #218ec1;
+}
