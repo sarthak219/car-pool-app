@@ -1,7 +1,7 @@
 .rides-container {
     width: 100%;
-    min-height: 90%;
-    height: 95%;
+    max-height: 68%;
+    height: 68%;
     overflow: auto;
     /* background-color: green;; */
 }
@@ -11,11 +11,11 @@
     height: 100%;
     /* background-color: #EFFFFD; */
     background: rgba(239, 255, 253, 0.12);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(1.4px);
--webkit-backdrop-filter: blur(1.4px);
-border: 1px solid rgba(239, 255, 253, 0.54);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.4px);
+    -webkit-backdrop-filter: blur(1.4px);
+    border: 1px solid rgba(239, 255, 253, 0.54);
     /* border-radius: 0.7rem; */
     overflow: hidden;
     padding: 20px;
@@ -27,7 +27,25 @@ input[type="text"] {
     border: 2px solid #42C2FF;
     border-radius: 1000px;
     font-size: 1rem;
-    margin-bottom: 5px;
     padding: 0.5rem 1rem;
     color: #42C2FF;
+}
+
+.route-btn {
+    outline: none;
+    border: none;
+    /* background-color: #42C2FF; */
+    background: rgb(133,244,255);
+    background: linear-gradient(160deg, rgba(133,244,255,1) 0%, rgba(66,194,255,1) 100%);
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    color: #EFFFFD;
+    text-shadow: 0 0 5px #42C2FF;
+}
+
+h1 {
+    /* color:  #42C2FF; */
+    /* text-shadow: 0 0 30px #42C2FF; */
+    color: #EFFFFD;
+    text-shadow: 0 0 30px #093d55;
 }

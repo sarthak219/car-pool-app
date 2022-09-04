@@ -9,6 +9,8 @@
 
 .ride h1 {
     font-size: 2rem;
+    text-shadow: none;
+    text-shadow: 0 0 5px #42C2FF;
 }
 
 .ride > * {
@@ -21,4 +23,8 @@
 
 .ride.selected {
     box-shadow: inset 0 0 0 2px #218ec1;
+}
+
+.ride p {
+    text-shadow: 0 0 5px #42C2FF;
 }

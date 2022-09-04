@@ -1,0 +1,17 @@
+.re-center-btn {
+    border-radius: 5px;
+    height: 40px;
+    aspect-ratio: 1;
+    position: absolute;
+    bottom: 130px;
+    right: 10px;
+    background-color: rgb(241, 241, 241);
+    border: none;
+    outline: none;
+    color: rgb(70, 70, 70);
+    transition: 150ms ease-in-out;
+}
+
+.re-center-btn:hover {
+    color: rgb(30, 30, 30);
+}
